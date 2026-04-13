@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "@/components/dashboard/dashboard.module.css";
 import { OrderPipeline } from "@/components/dashboard/OrderPipeline";
 import { DarkStoreOps } from "@/components/dashboard/DarkStoreOps";
@@ -6,13 +5,8 @@ import { InventoryIntelligence } from "@/components/dashboard/InventoryIntellige
 import { RiderControlTower } from "@/components/dashboard/RiderControlTower";
 import { Card } from "@/components/ui/Card";
 import { 
-  TrendingUp, 
-  DollarSign, 
-  ShoppingBag, 
-  Users, 
   ShieldCheck, 
   Activity,
-  Zap,
   BrainCircuit
 } from "lucide-react";
 
