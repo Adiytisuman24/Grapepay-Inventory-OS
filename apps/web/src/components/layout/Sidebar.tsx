@@ -13,7 +13,9 @@ import {
   Users,
   PieChart,
   Map as MapIcon,
-  Bell
+  Bell,
+  Zap,
+  BrainCircuit
 } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -24,7 +26,10 @@ const navItems = [
   { icon: Package, label: 'Inventory Intelligence', href: '/inventory' },
   { icon: Truck, label: 'Delivery Control', href: '/delivery' },
   { icon: Store, label: 'Dark Store Ops', href: '/stores' },
+  { icon: Database, label: 'Procurement & Supply', href: '/procurement' },
+  { icon: Zap, label: 'Dispatch Optimization', href: '/dispatch' },
   { icon: PieChart, label: 'Financial Snapshot', href: '/finance' },
+  { icon: BrainCircuit, label: 'AI Forecasting', href: '/forecast' },
   { icon: Users, label: 'Customer Experience', href: '/cx' },
   { icon: MapIcon, label: 'Geographic Map', href: '/map' },
   { icon: Bell, label: 'Alert Center', href: '/alerts' },

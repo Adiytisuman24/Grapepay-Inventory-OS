@@ -299,3 +299,14 @@
   font-weight: 700;
   color: var(--text-primary);
 }
+
+.velocityBlock {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.velocityBlock:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgba(124, 58, 237, 0.4);
+  z-index: 10;
+}
