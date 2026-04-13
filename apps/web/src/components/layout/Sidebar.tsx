@@ -51,8 +51,9 @@ export const Sidebar = () => {
             key={item.href} 
             href={item.href} 
             className={`${styles.navLink} ${pathname === item.href ? styles.active : ''}`}
+            style={{ padding: '0.6rem 0.75rem', fontSize: '0.85rem' }}
           >
-            <item.icon size={20} />
+            <item.icon size={18} />
             <span>{item.label}</span>
           </Link>
         ))}

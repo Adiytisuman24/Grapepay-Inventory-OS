@@ -17,8 +17,8 @@ export const Card = ({ title, subtitle, children, action, height, className }: C
     <div className={`${styles.card} ${className}`} style={{ height }}>
       <div className={styles.cardHeader}>
         <div className={styles.cardTitleGroup}>
-          <h3>{title}</h3>
-          {subtitle && <p>{subtitle}</p>}
+          <h3 style={{ fontSize: '0.85rem' }}>{title}</h3>
+          {subtitle && <p style={{ fontSize: '0.7rem' }}>{subtitle}</p>}
         </div>
         {action && <div className={styles.cardAction}>{action}</div>}
       </div>
