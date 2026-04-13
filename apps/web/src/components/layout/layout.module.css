@@ -4,13 +4,13 @@
   position: fixed;
   left: 0;
   top: 0;
-  background: var(--card-bg);
+  background: #ffffff;
   border-right: 1px solid var(--card-border);
   display: flex;
   flex-direction: column;
   padding: 1.5rem 1rem;
   z-index: 100;
-  backdrop-filter: blur(10px);
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.02);
 }
 
 .logo {
@@ -69,13 +69,14 @@
 
 .navLink:hover {
   background: var(--glass-bg);
-  color: var(--text-primary);
+  color: var(--primary);
 }
 
 .navLink.active {
-  background: var(--glass-bg);
+  background: #f5f3ff;
   color: var(--primary);
-  border: 1px solid var(--card-border);
+  border: 1px solid rgba(124, 58, 237, 0.1);
+  font-weight: 600;
 }
 
 .footer {
@@ -147,7 +148,7 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--card-border);
-  background: rgba(10, 11, 16, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(8px);
   position: sticky;
   top: 0;
