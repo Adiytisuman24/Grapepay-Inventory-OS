@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.npm
+**/.npm
+
+# Next.js
+.next/
+out/
+
+# NestJS
+dist/
+*.log
+
+# Environment
+.env*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
